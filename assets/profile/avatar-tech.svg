@@ -1,0 +1,39 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="32" x2="472" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#0b1f38"/>
+      <stop offset="1" stop-color="#190f2f"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(152 122) rotate(31) scale(140 120)">
+      <stop stop-color="#38bdf8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(374 140) rotate(160) scale(168 128)">
+      <stop stop-color="#a78bfa" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="code" x1="148" y1="182" x2="366" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="248" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="246" stroke="white" stroke-opacity="0.08" stroke-width="4"/>
+  <ellipse cx="152" cy="122" rx="140" ry="120" fill="url(#glowA)"/>
+  <ellipse cx="374" cy="140" rx="168" ry="128" fill="url(#glowB)"/>
+  <circle cx="256" cy="256" r="138" fill="#0f172a" fill-opacity="0.84" stroke="white" stroke-opacity="0.08" stroke-width="3"/>
+  <path d="M183 212L143 252L183 292" stroke="url(#code)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M329 212L369 252L329 292" stroke="url(#code)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M282 184L230 320" stroke="url(#code)" stroke-width="16" stroke-linecap="round"/>
+  <rect x="188" y="356" width="136" height="30" rx="15" fill="#0b2a3e" fill-opacity="0.78" stroke="#7dd3fc" stroke-opacity="0.28"/>
+  <text x="214" y="376" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="1.4">DATA x CODE</text>
+  <circle cx="136" cy="374" r="10" fill="url(#accent)"/>
+  <circle cx="376" cy="142" r="8" fill="#7dd3fc" fill-opacity="0.78"/>
+  <circle cx="126" cy="156" r="6" fill="#c4b5fd" fill-opacity="0.82"/>
+  <circle cx="392" cy="346" r="7" fill="#22c55e" fill-opacity="0.76"/>
+</svg>

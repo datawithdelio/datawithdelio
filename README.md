@@ -1,55 +1,47 @@
+<div align="center">
+
+<img src="assets/profile-banner.svg" alt="Delio Rincon banner" width="100%" />
+
 # Delio Rincon
 
-> Building data-heavy products at the intersection of macro, markets, machine learning, and product design.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=7DD3FC&center=true&vCenter=true&width=900&lines=Building+macro+and+FX+intelligence+products;Designing+data-heavy+systems+that+feel+premium;Working+across+markets%2C+analytics%2C+ML%2C+and+product+UX" alt="Typing intro" />
 
-![Delio Rincon Banner](assets/profile-banner.svg)
+<br />
 
-![GitHub followers](https://img.shields.io/github/followers/datawithdelio?style=for-the-badge&label=Follow&color=0f766e)
-![Profile views](https://komarev.com/ghpvc/?username=datawithdelio&style=for-the-badge&color=0f172a)
-![Focus](https://img.shields.io/badge/focus-macro%20x%20data%20x%20AI-0f172a?style=for-the-badge)
+<img src="https://img.shields.io/github/followers/datawithdelio?style=for-the-badge&label=Follow&color=0f766e" alt="GitHub followers" />
+<img src="https://komarev.com/ghpvc/?username=datawithdelio&style=for-the-badge&color=0f172a" alt="Profile views" />
+<img src="https://img.shields.io/badge/Focus-Macro%20x%20Data%20x%20AI-0f172a?style=for-the-badge" alt="Focus" />
+<img src="https://img.shields.io/badge/Built%20with-Next.js%20%7C%20Python%20%7C%20SQL-111827?style=for-the-badge" alt="Stack" />
 
-## What I Work On
+</div>
 
-- macro and market intelligence products
-- machine learning and computer vision projects
-- full-stack analytics dashboards
-- research workflows that turn raw data into usable systems
+## About Me
+
+I build systems that turn messy information into usable decisions.
+
+My current work sits at the intersection of:
+
+- macro and market intelligence
+- full-stack analytics products
+- machine learning and computer vision
+- premium UX for data-heavy workflows
+
+## What I Am Focused On
+
+- shipping market tools that use real APIs instead of decorative mock data
+- building products that explain not just what moved, but why it moved
+- turning research workflows into clean, user-facing systems
+- designing interfaces that feel serious, modern, and intentional
 
 ## Featured Projects
 
-### Market Intel
-
-A macro and FX intelligence platform that turns live events into structured market context.
-
-- live FX performance
-- pair analysis
-- event intelligence
-- reaction tracking
-
-Repo:
-- `datawithdelio/market-intel-app`
-
-### Market Intel Vercel
-
-Deployment-focused version of the product for public delivery and iteration.
-
-Repo:
-- `datawithdelio/market-intel-app-vercel`
-
-### Data Science Portfolio
-
-Selected analytics, modeling, and business-facing data work presented as portfolio projects.
-
-Repo:
-- `datawithdelio/data-science-portfolio`
-
-### Computer Vision / VisDrone Work
-
-Detection-focused work around drone imagery, object detection, and model experimentation.
-
-Repos:
-- `datawithdelio/visdrone-detr-enhanced`
-- `datawithdelio/detr-visdrone-object-detection`
+| Project | What it is |
+| --- | --- |
+| [`market-intel-app`](https://github.com/datawithdelio/market-intel-app) | Macro and FX intelligence platform with live market context, event analysis, and research-grade workflows. |
+| [`market-intel-app-vercel`](https://github.com/datawithdelio/market-intel-app-vercel) | Deployment-focused build of Market Intel for live product delivery and iteration. |
+| [`data-science-portfolio`](https://github.com/datawithdelio/data-science-portfolio) | Portfolio of analytics, modeling, and business-facing data projects. |
+| [`visdrone-detr-enhanced`](https://github.com/datawithdelio/visdrone-detr-enhanced) | Computer vision work on drone-based object detection with DETR-focused experimentation. |
+| [`detr-visdrone-object-detection`](https://github.com/datawithdelio/detr-visdrone-object-detection) | Object detection pipeline for VisDrone imagery with a focus on evaluation and model quality. |
 
 ## Tech Stack
 
@@ -57,37 +49,40 @@ Repos:
 Frontend:   Next.js, React, TypeScript
 Backend:    Node.js, Express
 Data:       Postgres, SQL, vendor APIs
-Analytics:  Python, notebooks, data workflows
-ML/CV:      PyTorch, detection pipelines, evaluation
+Analytics:  Python, notebooks, experimentation
+ML/CV:      PyTorch, DETR, evaluation pipelines
+Focus:      Markets, macro, product systems, research workflows
 ```
 
-## GitHub Stats
+## GitHub Snapshot
 
-![Delio's GitHub stats](https://github-readme-stats.vercel.app/api?username=datawithdelio&show_icons=true&theme=tokyonight&hide_border=true)
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=datawithdelio&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=datawithdelio&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</div>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=datawithdelio&layout=compact&theme=tokyonight&hide_border=true)
+## Design Standard
 
-## Current Direction
+The projects I care about most should feel:
 
-Right now I am focused on building systems that feel product-grade, not just technically complete:
-
-- stronger UX
-- real data pipelines
-- explainable analytics
-- cleaner interfaces for serious users
+- grounded in real data
+- visually sharp
+- explainable
+- measurable
+- product-grade, not just technically complete
 
 ## Connect
 
-- GitHub: `github.com/datawithdelio`
-- Portfolio: add your live site here
+- GitHub: [github.com/datawithdelio](https://github.com/datawithdelio)
 - LinkedIn: add your LinkedIn here
+- Portfolio: add your live site here
 
----
+## Notes
 
-If you use this as your profile README, create a repository named exactly:
+This profile README is backed by the special repository:
 
-```text
-datawithdelio
-```
+- `datawithdelio/datawithdelio`
 
-Then place this file in that repo as `README.md`.
+The avatar asset for this profile lives in:
+
+- `assets/profile/avatar-tech.svg`
