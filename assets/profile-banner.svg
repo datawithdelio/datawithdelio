@@ -1,0 +1,44 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="46" y1="28" x2="1240" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0b1a30"/>
+      <stop offset="1" stop-color="#1a1030"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 92) rotate(24) scale(270 180)">
+      <stop stop-color="#38bdf8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1090 92) rotate(170) scale(320 190)">
+      <stop stop-color="#a78bfa" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1244" height="324" rx="18" stroke="white" stroke-opacity="0.08"/>
+  <ellipse cx="210" cy="92" rx="270" ry="180" fill="url(#glowLeft)"/>
+  <ellipse cx="1090" cy="92" rx="320" ry="190" fill="url(#glowRight)"/>
+
+  <rect x="54" y="52" width="178" height="40" rx="20" fill="#0b2a3e" fill-opacity="0.72" stroke="#7dd3fc" stroke-opacity="0.36"/>
+  <text x="86" y="78" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2">DELIO RINCON</text>
+
+  <text x="54" y="160" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="-2.2">Data, markets, and</text>
+  <text x="54" y="218" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="-2.2">product-grade systems</text>
+  <text x="54" y="266" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="500">Building macro intelligence, analytics tools, and ML workflows that feel usable, premium, and real.</text>
+
+  <g>
+    <rect x="792" y="62" width="420" height="236" rx="24" fill="#101a2d" fill-opacity="0.84" stroke="white" stroke-opacity="0.10"/>
+    <text x="826" y="106" fill="#7dd3fc" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" letter-spacing="1.6">CURRENT FOCUS</text>
+    <text x="826" y="154" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">Macro intelligence products</text>
+    <text x="826" y="192" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">Machine learning workflows</text>
+    <text x="826" y="230" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800">Full-stack analytics UX</text>
+
+    <rect x="826" y="250" width="122" height="34" rx="17" fill="#12344d" fill-opacity="0.82" stroke="#7dd3fc" stroke-opacity="0.34"/>
+    <text x="856" y="272" fill="#e0f2fe" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Next.js</text>
+    <rect x="962" y="250" width="120" height="34" rx="17" fill="#13283b" fill-opacity="0.82" stroke="#c4b5fd" stroke-opacity="0.28"/>
+    <text x="996" y="272" fill="#ede9fe" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Python</text>
+    <rect x="1096" y="250" width="82" height="34" rx="17" fill="#12241f" fill-opacity="0.82" stroke="#4ade80" stroke-opacity="0.28"/>
+    <text x="1118" y="272" fill="#dcfce7" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">SQL</text>
+  </g>
+</svg>
