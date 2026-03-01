@@ -1,0 +1,74 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="44" y1="36" x2="474" y2="478" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0b1d36"/>
+      <stop offset="1" stop-color="#1a1030"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(158 136) rotate(26) scale(144 126)">
+      <stop stop-color="#38bdf8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(372 148) rotate(155) scale(168 132)">
+      <stop stop-color="#a78bfa" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="118" y1="120" x2="394" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#131c2f" stop-opacity="0.90"/>
+    </linearGradient>
+    <linearGradient id="lineA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="lineB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="barG" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#86efac"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="barR" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fda4af"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="256" cy="256" r="248" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="246" stroke="white" stroke-opacity="0.08" stroke-width="4"/>
+  <ellipse cx="158" cy="136" rx="144" ry="126" fill="url(#glowA)"/>
+  <ellipse cx="372" cy="148" rx="168" ry="132" fill="url(#glowB)"/>
+
+  <rect x="110" y="116" width="292" height="280" rx="34" fill="url(#panel)" stroke="white" stroke-opacity="0.08" stroke-width="3"/>
+  <rect x="136" y="146" width="240" height="20" rx="10" fill="#10253a" fill-opacity="0.88" stroke="#7dd3fc" stroke-opacity="0.20"/>
+  <circle cx="156" cy="156" r="4" fill="#7dd3fc"/>
+  <circle cx="172" cy="156" r="4" fill="#a78bfa"/>
+  <circle cx="188" cy="156" r="4" fill="#22c55e"/>
+
+  <path d="M148 316H364" stroke="#64748b" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M148 268H364" stroke="#64748b" stroke-opacity="0.18" stroke-dasharray="4 6" stroke-width="2"/>
+  <path d="M148 220H364" stroke="#64748b" stroke-opacity="0.18" stroke-dasharray="4 6" stroke-width="2"/>
+
+  <rect x="166" y="290" width="28" height="26" rx="10" fill="url(#barR)"/>
+  <rect x="208" y="270" width="28" height="46" rx="10" fill="url(#barR)"/>
+  <rect x="250" y="244" width="28" height="72" rx="10" fill="url(#barG)"/>
+  <rect x="292" y="222" width="28" height="94" rx="10" fill="url(#barG)"/>
+
+  <path d="M156 246C180 228 198 236 218 214C238 192 262 196 282 170C298 148 322 150 348 136" stroke="url(#lineA)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="156" cy="246" r="8" fill="#7dd3fc"/>
+  <circle cx="218" cy="214" r="8" fill="#7dd3fc"/>
+  <circle cx="282" cy="170" r="8" fill="#7dd3fc"/>
+  <circle cx="348" cy="136" r="8" fill="#7dd3fc"/>
+
+  <path d="M164 194C186 210 210 202 230 218C250 234 272 226 292 242C310 256 326 252 346 266" stroke="url(#lineB)" stroke-width="6" stroke-dasharray="8 10" stroke-linecap="round"/>
+
+  <circle cx="154" cy="370" r="16" fill="#10253a" stroke="#7dd3fc" stroke-opacity="0.26"/>
+  <circle cx="198" cy="370" r="16" fill="#121f33" stroke="#a78bfa" stroke-opacity="0.26"/>
+  <circle cx="242" cy="370" r="16" fill="#13241f" stroke="#22c55e" stroke-opacity="0.24"/>
+  <path d="M170 370H182" stroke="#64748b" stroke-opacity="0.34" stroke-width="2"/>
+  <path d="M214 370H226" stroke="#64748b" stroke-opacity="0.34" stroke-width="2"/>
+
+  <rect x="272" y="352" width="102" height="34" rx="17" fill="#0b2a3e" fill-opacity="0.76" stroke="#7dd3fc" stroke-opacity="0.24"/>
+  <text x="292" y="374" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">DATA SCIENCE</text>
+</svg>
